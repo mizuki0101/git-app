@@ -1,3 +1,4 @@
 class Article < ApplicationRecord
-  validates_presence_of(:little)
+  validates :little, presence: true
+
 end
